@@ -44,7 +44,7 @@ fn find_numbers(map: &Vec<Vec<char>>) -> Vec<Num> {
             numbers.push(Num {
                 indices: indices,
                 value: number.parse::<usize>().unwrap(),
-            });
+            }); 
         }
     }
 
